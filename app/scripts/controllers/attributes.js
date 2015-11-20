@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name html5ReferenceApp.controller:MainCtrl
+ * @name html5ReferenceApp.controller:AttributesCtrl
  * @description
- * # MainCtrl
+ * # AttributesCtrl
  * Controller of the html5ReferenceApp
  */
 angular.module('html5ReferenceApp')
-  .controller('MainCtrl', function () {
+  .controller('AttributesCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
