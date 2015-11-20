@@ -1,1 +1,21 @@
-<p>Elements</p>
+<div class="row">
+    <input type="search" class="form-control" ng-model="elementSearch"></input>
+</div>
+<br>
+<div ng-repeat="element in elements | filter:elementSearch" class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading">{{element.name}} - {{element.desc}}</div>
+        <div class="panel-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Attributes</h3>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Notes</h3>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+</div>

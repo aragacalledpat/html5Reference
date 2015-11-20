@@ -8,10 +8,10 @@
  * Controller of the html5ReferenceApp
  */
 angular.module('html5ReferenceApp')
-  .controller('ElementsCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('ElementsCtrl', [ '$scope','$http', function ($scope, $http) {
+    $http.get('elements.json')
+      .success(function(data){
+          $scope.elements = data.elements;
+          console.log($scope.elements);
+      });
+  }]);
