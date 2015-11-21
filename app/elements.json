@@ -5,7 +5,367 @@
         "attributes" : ["billy", "bob"]
     },
     {
-        "name" : "body",
+        "name" : "base",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "head",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "style",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "title",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "address",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "article",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "footer",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "header",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "h1-6",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "hgroup",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "nav",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "section",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "dd",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "div",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "dl",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "figcaption",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "figure",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "hr",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "li",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "main",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "ol",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "p",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "pre",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "ul",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "abbr",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "b",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "bdi",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "bdo",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "br",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "cite",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "code",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "data",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "dfn",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "em",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "i",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "kbd",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "mark",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "q",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "rp",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "rt",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "rtc",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "ruby",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "s",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "samp",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "small",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "span",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "strong",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "sub",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "sup",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "time",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "u",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "var",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "wbr",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "area",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "audio",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "map",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "track",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "video",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "embed",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "object",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "param",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "source",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "canvas",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "noscript",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "script",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "del",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "ins",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "caption",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "col",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "colgroup",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "table",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "tbody",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "td",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "tfoot",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "th",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "thead",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "tr",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "button",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "datalist",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "fieldset",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "form",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "input",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "keygen",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "label",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "legend",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "meter",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "optgroup",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "option",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "output",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "progress",
+        "attributes" : ["timmy", "tom"]
+    },
+    {
+        "name" : "select",
         "attributes" : ["timmy", "tom"]
     }
         ]
