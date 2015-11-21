@@ -163,188 +163,169 @@
     },
     {
         "name" : "code",
-        "description" : "",
+        "description" : "show computer code",
         "attributes" : []
     },
     {
         "name" : "data",
-        "description" : "",
-        "attributes" : []
+        "description" : "element with machine readable translation",
+        "attributes" : ["value"]
     },
     {
         "name" : "dfn",
-        "description" : "",
-        "attributes" : []
+        "description" : "definition element",
+        "attributes" : ["title"]
     },
     {
         "name" : "em",
-        "description" : "",
+        "description" : "emphasis, usually for italics",
         "attributes" : []
     },
     {
         "name" : "i",
-        "description" : "",
+        "description" : "text that is offset from normal text, usually italics",
         "attributes" : []
     },
     {
         "name" : "kbd",
-        "description" : "",
+        "description" : "keyboard input item",
         "attributes" : []
     },
     {
         "name" : "mark",
-        "description" : "",
+        "description" : "represents highlighted text",
         "attributes" : []
     },
     {
         "name" : "q",
-        "description" : "",
-        "attributes" : []
-    },
-    {
-        "name" : "rp",
-        "description" : "",
-        "attributes" : []
-    },
-    {
-        "name" : "rt",
-        "description" : "",
-        "attributes" : []
-    },
-    {
-        "name" : "rtc",
-        "description" : "",
-        "attributes" : []
-    },
-    {
-        "name" : "ruby",
-        "description" : "",
+        "description" : "Quote element, used for without line breaks",
         "attributes" : []
     },
     {
         "name" : "s",
-        "description" : "",
+        "description" : "strikethrough, content that is no longer relevant",
         "attributes" : []
     },
     {
         "name" : "samp",
-        "description" : "",
+        "description" : "sample outut of a computer program",
         "attributes" : []
     },
     {
         "name" : "small",
-        "description" : "",
+        "description" : "shrinks text one size until browser minimum",
         "attributes" : []
     },
     {
         "name" : "span",
-        "description" : "",
+        "description" : "default inline element",
         "attributes" : []
     },
     {
         "name" : "strong",
-        "description" : "",
+        "description" : "gives element strong importance, usually in bold",
         "attributes" : []
     },
     {
         "name" : "sub",
-        "description" : "",
+        "description" : "subscript",
         "attributes" : []
     },
     {
         "name" : "sup",
-        "description" : "",
+        "description" : "superscript",
         "attributes" : []
     },
     {
         "name" : "time",
-        "description" : "",
+        "description" : "represents 24 hour clock",
         "attributes" : []
     },
     {
         "name" : "u",
-        "description" : "",
+        "description" : "underline, shouldn't be used anymore",
         "attributes" : []
     },
     {
         "name" : "var",
-        "description" : "",
+        "description" : "variable in mathematical equasion",
         "attributes" : []
     },
     {
         "name" : "wbr",
-        "description" : "",
+        "description" : "wordbreak oppertunity",
         "attributes" : []
     },
     {
         "name" : "area",
-        "description" : "",
-        "attributes" : []
+        "description" : "defines hotspot region on map element",
+        "attributes" : ["alt", "coords", "download", "href", "hreflang", "media"]
     },
     {
         "name" : "audio",
-        "description" : "",
-        "attributes" : []
+        "description" : "HTML audio element",
+        "attributes" : ["autoplay", "buffered", "controls", "loop", "muted", "played", "preload", "src", "volume"]
     },
     {
         "name" : "map",
-        "description" : "",
-        "attributes" : []
+        "description" : "used to define an image map",
+        "attributes" : ["name"]
     },
     {
         "name" : "track",
-        "description" : "",
-        "attributes" : []
+        "description" : "used as a child to audio or video",
+        "attributes" : ["default", "kind", "label", "src", "srclang"]
     },
     {
         "name" : "video",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["autoplay", "buffered", "controls", "crossorigin", "height", "loop", "muted", "played", "prelong" ,"poster", "src", "width"]
     },
     {
         "name" : "embed",
-        "description" : "",
-        "attributes" : []
+        "description" : "integration point for a plugin",
+        "attributes" : ["height" , "src", "type", "width"]
     },
     {
         "name" : "object",
-        "description" : "",
-        "attributes" : []
+        "description" : "represents external resource",
+        "attributes" : ["data", "height", "name", "type", "typemustmatch", "usemap", "width"],
+        "notes" : "data and type attributes must be defined"
     },
     {
         "name" : "param",
-        "description" : "",
-        "attributes" : []
+        "description" : "used as a child to object element",
+        "attributes" : ["name", "value"]
     },
     {
         "name" : "source",
-        "description" : "",
-        "attributes" : []
+        "description" : "used to specify multiple resources for audio and video elements",
+        "attributes" : ["src", "type","media"]
     },
     {
         "name" : "canvas",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["height", "width"]
     },
     {
         "name" : "noscript",
-        "description" : "",
+        "description" : "text to be displayed if scripting is disabled",
         "attributes" : []
     },
     {
         "name" : "script",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["async", "integrity", "src", "type", "text", "defer"]
     },
     {
         "name" : "del",
         
-        "description" : "",
+        "description" : "represents removed content, usually with strikethrough",
         "attributes" : []
     },
     {
         "name" : "ins",
-        "description" : "",
+        "description" : "represents inserted content",
         "attributes" : []
     },
     {
@@ -399,17 +380,17 @@
     {
         "name" : "button",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["autofocus", "disabled", "form", "formaction" ,"formenctype", "formmethod", "formnovalidate", "formtarget","name","type","value"]
     },
     {
         "name" : "datalist",
-        "description" : "",
+        "description" : "set of option elements",
         "attributes" : []
     },
     {
         "name" : "fieldset",
-        "description" : "",
-        "attributes" : []
+        "description" : "group several elements within a form",
+        "attributes" : ["form", "name", "disabled"]
     },
     {
         "name" : "form",
@@ -467,8 +448,7 @@
         "attributes" : []
     },
     {
-        "name" : "a",
-        
+        "name" : "a",   
         "description" : "",
         "attributes" : []
     },
@@ -496,7 +476,7 @@
     {
         "name" : "iframe",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["allowfullscreen", "height", "name", "sandbox", "src", "seamless", "srcdoc", "width"]
     },
     {
         "name" : "img",
