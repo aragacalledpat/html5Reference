@@ -279,7 +279,7 @@
     {
         "name" : "video",
         "description" : "",
-        "attributes" : ["autoplay", "buffered", "controls", "crossorigin", "height", "loop", "muted", "played", "prelong" ,"poster", "src", "width"]
+        "attributes" : ["autoplay", "buffered", "controls", "crossorigin", "height", "loop", "muted", "played", "preload" ,"poster", "src", "width"]
     },
     {
         "name" : "embed",
@@ -395,83 +395,78 @@
     {
         "name" : "form",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["accept-charset", "action" ,"autocapitalize" ,"autocomplete", "enctype", "method", "name", "novalidate", "target"]
     },
     {
         "name" : "input",
         "description" : "",
-        "attributes" : []
-    },
-    {
-        "name" : "keygen",
-        "description" : "",
-        "attributes" : []
+        "attributes" : ["type", "accept" ,"autocomplete", "autofocus", "autosave", "checked", "disabled", "form","formaction", "formenctype", "formmethod","formnovalidate","formtarget", "height","inputmode","list","max","maxlength","minlength","multiple","name","pattern","placeholder","readonly","required","selectDirection","size","spellcheck","src","step","value","width"]
     },
     {
         "name" : "label",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["accesskey","for","form"]
     },
     {
         "name" : "legend",
-        "description" : "",
+        "description" : "represents caption for fieldset group",
         "attributes" : []
     },
     {
         "name" : "meter",
-        "description" : "",
-        "attributes" : []
+        "description" : "represents scalar value or range",
+        "attributes" : ["value","min","max","low","high","optimum", "form"]
     },
     {
         "name" : "optgroup",
-        "description" : "",
-        "attributes" : []
+        "description" : "creates grouping of options within a select element",
+        "attributes" : ["disabled","label"]
     },
     {
         "name" : "option",
-        "description" : "",
-        "attributes" : []
+        "description" : "represents item inside select, optgroup or datalist element",
+        "attributes" : ["disabled","label","selected","value"]
     },
     {
         "name" : "output",
-        "description" : "",
-        "attributes" : []
+        "description" : "result of calculation",
+        "attributes" : ["for","form","name"]
     },
     {
         "name" : "progress",
-        "description" : "",
-        "attributes" : []
+        "description" : "progress bar",
+        "attributes" : ["max","value"]
     },
     {
         "name" : "select",
-        "description" : "",
-        "attributes" : []
+        "description" : "control that presents menu of options",
+        "attributes" : ["autofocus","disabled","form","multiple","name","required","size"]
     },
     {
         "name" : "a",   
         "description" : "",
-        "attributes" : []
+        "attributes" : ["download","href","hreflang","media","ping","rel","target","type"]
     },
     {
         "name" : "aside",
-        "description" : "",
+        "description" : "tangentially related content",
         "attributes" : []
     },
     {
         "name" : "blockquote",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["cite"]
     }
     ,
     {
         "name" : "body",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["onafterprint","onbeforeprint","onbeforeunload","onblur","onerror","onfocus","onhashchange","onload","onmessage","onoffline","ononline","onpopstate","onredo","onresize","onstorage","onundo","onunload"]
     },
     {
         "name" : "command",
-        "description" : "",
-        "attributes" : []
+        "description" : "represents a command that a user can invoke",
+        "attributes" : ["checked","disabled","icon","label","radiogroup","type"]
     },
     {
         "name" : "iframe",
@@ -481,22 +476,22 @@
     {
         "name" : "img",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["alt","crossorigin","height","ismap","longdesc","sizes","src","srcset","width","usemap"]
     },
     {
         "name" : "link",
-        "description" : "",
-        "attributes" : []
+        "description" : "specifies relationships between current document and an external resource",
+        "attributes" : ["crossorigin","href","hreflang","media","rel","sizes","type"]
     },
     {
         "name" : "meta",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["charset","content","http-equiv","name"]
     },
     {
         "name" : "textarea",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["autocomplete","autofocus","cols","disabled","form","maxlength","minlength","name","placeholder","required","rows","selectionDirection","selectionEnd","selectionStart","spellcheck","wrap"]
     }
         ]
 
