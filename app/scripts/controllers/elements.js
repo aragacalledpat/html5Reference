@@ -9,6 +9,7 @@
  */
 angular.module('html5ReferenceApp')
   .controller('ElementsCtrl', [ '$scope','$http', function ($scope, $http) {
+      $scope.elements = [];
     $http.get('elements.json')
       .success(function(data){
           $scope.elements = data.elements;

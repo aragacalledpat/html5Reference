@@ -1,0 +1,377 @@
+{
+   "events" : [
+        {
+            "name" : "abort",
+            "type" : "UIEvent",
+            "spec" : "DOM L3",
+            "fired" : "The loading of a resource has been aborted"
+        },
+        {
+            "name" : "abort",
+            "type" : "ProgressEvent",
+            "spec" : "Progress and XMLHttpRequest",
+            "fired" : "progression has been terminated(not do to an error)"
+        },
+        {
+            "name" : "abort",
+            "type" : "Event",
+            "spec" : "IndexedDB",
+            "fired" : "A transaction has been aborted"
+        },
+        {
+            "name" : "afterprint",
+            "type" : "Event",
+            "spec" : "HTML5",
+            "fired" : "The associated document has started printing or the print preview has been closed"
+        },
+        {
+            "name" : "animationend",
+            "type" : "AnimationEvent",
+            "spec" : "CSS Animations",
+            "fired" : "A CSS animation has completed"
+        },
+        {
+            "name" : "animationiteration",
+            "type" : "AnimationEvent",
+            "spec" : "CSS Animations",
+            "fired" : "A CSS animation is repeated"
+        },
+        {
+            "name" : "animationstart",
+            "type" : "AnimationEvent",
+            "spec" : "CSS Animations",
+            "fired" : "A CSS Animation has started"
+        },
+        {
+            "name" : "audioprocess",
+            "type" : "AudioProcessingEvent",
+            "spec" : "Web Audio API",
+            "fired" : "The input buffer of a ScriptProcessingNode is ready to be processed"
+        },
+        {
+            "name" : "audioend",
+            "type" : "Event",
+            "spec" : "Web Speech API",
+            "fired" : "The user agent has finished capturing audio for speech recognition"
+        },
+        {
+            "name" : "audiostart",
+            "type" : "Event",
+            "spec" : "Web Speech API",
+            "fired" : "The user agent has started capture audio for speech recognition"
+        },
+        {
+            "name" : "beforeprint",
+            "type" : "Event",
+            "spec" : "HTML5",
+            "fired" : "The associated documenet is about to be printed or previewed for printing"
+        },
+        {
+            "name" : "beforeunload",
+            "type" : "BeforeUnloadEvent",
+            "spec" : "HTML5",
+            "fired" : ""
+        },
+        {
+            "name" : "BeginEvent",
+            "type" : "TimeEvent",
+            "spec" : "SVG",
+            "fired" : "A SMIL animation element begins"
+        },
+        {
+            "name" : "blocked",
+            "type" : "",
+            "spec" : "IndexedDB",
+            "fired" : "An open connection to a database is blockin ga versionchange transaction on the same database"
+        },
+        {
+            "name" : "blur",
+            "type" : "FocusEvent",
+            "spec" : "DOM L3",
+            "fired" : "An element has lost focus(does not bubble)"
+        },
+        {
+            "name" : "cached",
+            "type" : "Event",
+            "spec" : "Offline",
+            "fired" : "The resources listed in the manifest have been downloaded, and the application is now cached"
+        },
+        {
+            "name" : "canplay",
+            "type" : "Event",
+            "spec" : "HTML5 media",
+            "fired" : "The user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content"
+        },
+        {
+            "name" : "canplaythrough",
+            "type" : "Event",
+            "spec" : "HTML5 media",
+            "fired" : "The user agent can play the media, and estimates that enough data has been loaded to play the media up to its end without having to stop for further buffering of content"
+        },
+        {
+            "name" : "change",
+            "type" : "Event",
+            "spec" : "DOM L2, HTML5",
+            "fired" : "An element loses focus and its value changed since gaining focus"
+        },
+        {
+            "name" : "chargingchange",
+            "type" : "Event",
+            "spec" : "Battery status",
+            "fired" : "The battery begins or stops charging"
+        },
+        {
+            "name" : "chargingtimechange",
+            "type" : "Event",
+            "spec" : "Battery status",
+            "fired" : "The chargingTime attribute has been updated"
+        },
+        {
+            "name" : "checking",
+            "type" : "Event",
+            "spec" : "Offline",
+            "fired" : "The user agent is checking for an update, or attempting to download the cache manifest for the first time"
+        },
+        {
+            "name" : "click",
+            "type" : "MouseEvent",
+            "spec" : "DOM L3",
+            "fired" : "A pointing device button has been pressed and released on an element"
+        },
+        {
+            "name" : "close",
+            "type" : "Event",
+            "spec" : "WebSocket",
+            "fired" : "A web socket connection has been closed"
+        },
+        {
+            "name" : "complete",
+            "type" : "",
+            "spec" : "IndexedDB",
+            "fired" : ""
+        },
+        {
+            "name" : "complete",
+            "type" : "OfflineAudioCompletionEvent",
+            "spec" : "Web Audio API",
+            "fired" : "The rendering of an OfflineAudioContext is terminated"
+        },
+        {
+            "name" : "compositionend",
+            "type" : "CompositionEvent",
+            "spec" : "DOM L3",
+            "fired" : "The composition of a passage of text has been completed or canceled"
+        },
+        {
+            "name" : "compositionstart",
+            "type" : "CompositionEvent",
+            "spec" : "DOM L3",
+            "fired" : "The composition of a passage of text is preparted - like keypress but works with other devices"
+        },
+        {
+            "name" : "compositionupdate",
+            "type" : "CompositionEvent",
+            "spec" : "DOM L3",
+            "fired" : "a character is added to a passage of text being composed"
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+{
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        },
+        {
+            "name" : "",
+            "type" : "",
+            "spec" : "",
+            "fired" : ""
+        }
+
+       ]
+}

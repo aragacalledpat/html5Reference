@@ -1,0 +1,21 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <input ng-model="eventSearch" type="search" placeholder="search" class="form-control"></input>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="list-group">
+                <a ng-repeat="event in events | filter:eventSearch" href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">{{event.name}} ({{event.type}})</h4>
+                    <p class="list-group-item-text">{{event.fired}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

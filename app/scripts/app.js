@@ -19,10 +19,10 @@ angular
         controller: 'ElementsCtrl',
         controllerAs: 'elements'
       })
-      .when('/attributes', {
-        templateUrl: 'views/attributes.html',
-        controller: 'AttributesCtrl',
-        controllerAs: 'attributes'
+      .when('/events', {
+        templateUrl: 'views/events.html',
+        controller: 'EventsCtrl',
+        controllerAs: 'events'
       })
       .otherwise({
         redirectTo: '/'
