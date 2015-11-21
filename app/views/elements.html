@@ -1,10 +1,12 @@
 <div class="row">
-    <input type="search" class="form-control" ng-model="elementSearch"></input>
+    <div class="col-md-3">
+        <input type="search" class="form-control" ng-model="elementSearch" placeholder="test"></input>
+    </div>
 </div>
 <br>
 <div ng-repeat="element in elements | filter:elementSearch" class="row">
     <div class="panel panel-default">
-        <div class="panel-heading">{{element.name}} - {{element.desc}}</div>
+        <div class="panel-heading"><{{element.name}}> - {{element.desc}}</div>
         <div class="panel-body">
             <div class="container">
                 <div class="row">

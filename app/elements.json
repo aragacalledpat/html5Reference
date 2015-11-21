@@ -2,371 +2,521 @@
     "elements" : [
     {
         "name" : "html",
-        "attributes" : ["billy", "bob"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "base",
-        "attributes" : ["timmy", "tom"]
+        "description" : "set base for relative path links",
+        "attributes" : ["href", "target"]
     },
     {
         "name" : "head",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "style",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : ["type", "media", "scoped", "title", "disabled"]
     },
     {
         "name" : "title",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "address",
-        "attributes" : ["timmy", "tom"]
+        "description" : "place for an actual address",
+        "attributes" : []
     },
     {
         "name" : "article",
-        "attributes" : ["timmy", "tom"]
+        "description" : "self contained section that could be redistributed",
+        "attributes" : []
     },
     {
         "name" : "footer",
-        "attributes" : ["timmy", "tom"]
+        "description" : "footer for nearest sectioning content",
+        "attributes" : []
     },
     {
         "name" : "header",
-        "attributes" : ["timmy", "tom"]
+        "description" : "header for nearest sectioning content",
+        "attributes" : []
     },
     {
         "name" : "h1-6",
-        "attributes" : ["timmy", "tom"]
-    },
-    {
-        "name" : "hgroup",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "nav",
-        "attributes" : ["timmy", "tom"]
+        "description" : "section for navigation links",
+        "attributes" : []
     },
     {
         "name" : "section",
-        "attributes" : ["timmy", "tom"]
+        "description" : "used for thematic grouping",
+        "attributes" : []
+    },
+    {
+        "name" : "dt",
+        "description" : "HTML Definition Term Element, described by <dd>",
+        "attributes" : []
     },
     {
         "name" : "dd",
-        "attributes" : ["timmy", "tom"]
+        "description" : "HTML Description Element, used to describe a <dt> ",
+        "attributes" : []
+    },
+        {
+        "name" : "dl",
+        "description" : "HTML Descrption List, has child pairs of dt/dd",
+        "attributes" : []
     },
     {
         "name" : "div",
-        "attributes" : ["timmy", "tom"]
-    },
-    {
-        "name" : "dl",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "figcaption",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "figure",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "hr",
-        "attributes" : ["timmy", "tom"]
+        "description" : "Thematic break between paragraph-level elements",
+        "attributes" : []
     },
     {
         "name" : "li",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : ["value"]
     },
     {
         "name" : "main",
-        "attributes" : ["timmy", "tom"]
+        "description" : "Represents main section of <body> element",
+        "attributes" : [],
+        "notes": "can't be in other sectioning elements and there can only be one"
     },
     {
         "name" : "ol",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : ["reversed","start", "type"]
     },
     {
         "name" : "p",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "pre",
-        "attributes" : ["timmy", "tom"]
+        "description" : "Preformatted text",
+        "attributes" : []
     },
     {
         "name" : "ul",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "abbr",
-        "attributes" : ["timmy", "tom"]
+        "description" : "Abbreviation element",
+        "attributes" : [],
+        "notes" : "use title attribute to optionally provide full description"
     },
     {
         "name" : "b",
-        "attributes" : ["timmy", "tom"]
+        "description" : "represents span of text that is stylistically different",
+        "attributes" : [],
+        "notes" : "used to mean bold but shouldn't anymore"
     },
     {
         "name" : "bdi",
-        "attributes" : ["timmy", "tom"]
+        "description" : "Bi-Directional Isolation Element",
+        "attributes" : [],
+        "notes" : "text that might be formatted in a different direction than the text outside of it"
     },
     {
         "name" : "bdo",
-        "attributes" : ["timmy", "tom"]
+        "description" : "HTML bidirectional override element",
+        "attributes" : ["dir"],
+        "notes" : "used to override normal direction and specifically specify another direction"
     },
     {
         "name" : "br",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "cite",
-        "attributes" : ["timmy", "tom"]
+        "description" : "represents citiation to a creative work",
+        "attributes" : [],
+        "note" : "shouldn't be a person's name"
     },
     {
         "name" : "code",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "data",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "dfn",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "em",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "i",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "kbd",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "mark",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "q",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "rp",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "rt",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "rtc",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "ruby",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "s",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "samp",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "small",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "span",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "strong",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "sub",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "sup",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "time",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "u",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "var",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "wbr",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "area",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "audio",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "map",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "track",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "video",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "embed",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "object",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "param",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "source",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "canvas",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "noscript",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "script",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "del",
-        "attributes" : ["timmy", "tom"]
+        
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "ins",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "caption",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "col",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "colgroup",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "table",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "tbody",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "td",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "tfoot",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "th",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "thead",
-        "attributes" : ["timmy", "tom"]
+        "attributes" : []
     },
     {
         "name" : "tr",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "button",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "datalist",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "fieldset",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "form",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "input",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "keygen",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "label",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "legend",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "meter",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "optgroup",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "option",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "output",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "progress",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
     },
     {
         "name" : "select",
-        "attributes" : ["timmy", "tom"]
+        "description" : "",
+        "attributes" : []
+    },
+    {
+        "name" : "a",
+        
+        "description" : "",
+        "attributes" : []
+    },
+    {
+        "name" : "aside",
+        "description" : "",
+        "attributes" : []
+    },
+    {
+        "name" : "blockquote",
+        "description" : "",
+        "attributes" : []
+    }
+    ,
+    {
+        "name" : "body",
+        "description" : "",
+        "attributes" : []
+    },
+    {
+        "name" : "command",
+        "description" : "",
+        "attributes" : []
+    },
+    {
+        "name" : "iframe",
+        "description" : "",
+        "attributes" : []
+    },
+    {
+        "name" : "img",
+        "description" : "",
+        "attributes" : []
+    },
+    {
+        "name" : "link",
+        "description" : "",
+        "attributes" : []
+    },
+    {
+        "name" : "meta",
+        "description" : "",
+        "attributes" : []
+    },
+    {
+        "name" : "textarea",
+        "description" : "",
+        "attributes" : []
     }
         ]
 
