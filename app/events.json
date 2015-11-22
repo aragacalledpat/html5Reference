@@ -5,1155 +5,1155 @@
             "type" : "UIEvent",
             "spec" : "DOM L3",
             "fired" : "The loading of a resource has been aborted",
-            "url" : ""
+            "url" : "abort"
         },
         {
             "name" : "abort",
             "type" : "ProgressEvent",
             "spec" : "Progress and XMLHttpRequest",
             "fired" : "progression has been terminated(not do to an error)",
-            "url" : ""
+            "url" : "abort_(ProgressEvent)"
         },
         {
             "name" : "abort",
             "type" : "Event",
             "spec" : "IndexedDB",
             "fired" : "A transaction has been aborted",
-            "url" : ""
+            "url" : "abort_indexedDB"
         },
         {
             "name" : "afterprint",
             "type" : "Event",
             "spec" : "HTML5",
             "fired" : "The associated document has started printing or the print preview has been closed",
-            "url" : ""
+            "url" : "afterprint"
         },
         {
             "name" : "animationend",
             "type" : "AnimationEvent",
             "spec" : "CSS Animations",
             "fired" : "A CSS animation has completed",
-            "url" : ""
+            "url" : "animationend"
         },
         {
             "name" : "animationiteration",
             "type" : "AnimationEvent",
             "spec" : "CSS Animations",
             "fired" : "A CSS animation is repeated",
-            "url" : ""
+            "url" : "animationiteration"
         },
         {
             "name" : "animationstart",
             "type" : "AnimationEvent",
             "spec" : "CSS Animations",
             "fired" : "A CSS Animation has started",
-            "url" : ""
+            "url" : "animationstart"
         },
         {
             "name" : "audioprocess",
             "type" : "AudioProcessingEvent",
             "spec" : "Web Audio API",
             "fired" : "The input buffer of a ScriptProcessingNode is ready to be processed",
-            "url" : ""
+            "url" : "audioprocess"
         },
         {
             "name" : "audioend",
             "type" : "Event",
             "spec" : "Web Speech API",
             "fired" : "The user agent has finished capturing audio for speech recognition",
-            "url" : ""
+            "url" : "audioend"
         },
         {
             "name" : "audiostart",
             "type" : "Event",
             "spec" : "Web Speech API",
             "fired" : "The user agent has started capture audio for speech recognition",
-            "url" : ""
+            "url" : "audiostart"
         },
         {
             "name" : "beforeprint",
             "type" : "Event",
             "spec" : "HTML5",
             "fired" : "The associated documenet is about to be printed or previewed for printing",
-            "url" : ""
+            "url" : "beforeprint"
         },
         {
             "name" : "beforeunload",
             "type" : "BeforeUnloadEvent",
             "spec" : "HTML5",
             "fired" : "",
-            "url" : ""
+            "url" : "beforeunload"
         },
         {
             "name" : "BeginEvent",
             "type" : "TimeEvent",
             "spec" : "SVG",
             "fired" : "A SMIL animation element begins",
-            "url" : ""
+            "url" : "beginEvent"
         },
         {
             "name" : "blocked",
             "type" : "",
             "spec" : "IndexedDB",
             "fired" : "An open connection to a database is blockin ga versionchange transaction on the same database",
-            "url" : ""
+            "url" : "blocked_indexedDB"
         },
         {
             "name" : "blur",
             "type" : "FocusEvent",
             "spec" : "DOM L3",
             "fired" : "An element has lost focus(does not bubble)",
-            "url" : ""
+            "url" : "blur"
         },
         {
             "name" : "cached",
             "type" : "Event",
             "spec" : "Offline",
             "fired" : "The resources listed in the manifest have been downloaded, and the application is now cached",
-            "url" : ""
+            "url" : "cached"
         },
         {
             "name" : "canplay",
             "type" : "Event",
             "spec" : "HTML5 media",
             "fired" : "The user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content",
-            "url" : ""
+            "url" : "canplay"
         },
         {
             "name" : "canplaythrough",
             "type" : "Event",
             "spec" : "HTML5 media",
             "fired" : "The user agent can play the media, and estimates that enough data has been loaded to play the media up to its end without having to stop for further buffering of content",
-            "url" : ""
+            "url" : "canplaythrough"
         },
         {
             "name" : "change",
             "type" : "Event",
             "spec" : "DOM L2, HTML5",
             "fired" : "An element loses focus and its value changed since gaining focus",
-            "url" : ""
+            "url" : "change"
         },
         {
             "name" : "chargingchange",
             "type" : "Event",
             "spec" : "Battery status",
             "fired" : "The battery begins or stops charging",
-            "url" : ""
+            "url" : "chargingchange"
         },
         {
             "name" : "chargingtimechange",
             "type" : "Event",
             "spec" : "Battery status",
             "fired" : "The chargingTime attribute has been updated",
-            "url" : ""
+            "url" : "chargingtimechange"
         },
         {
             "name" : "checking",
             "type" : "Event",
             "spec" : "Offline",
             "fired" : "The user agent is checking for an update, or attempting to download the cache manifest for the first time",
-            "url" : ""
+            "url" : "checking"
         },
         {
             "name" : "click",
             "type" : "MouseEvent",
             "spec" : "DOM L3",
             "fired" : "A pointing device button has been pressed and released on an element",
-            "url" : ""
+            "url" : "click"
         },
         {
             "name" : "close",
             "type" : "Event",
             "spec" : "WebSocket",
             "fired" : "A web socket connection has been closed",
-            "url" : ""
+            "url" : "close_websocket"
         },
         {
             "name" : "complete",
             "type" : "",
             "spec" : "IndexedDB",
             "fired" : "",
-            "url" : ""
+            "url" : "complete_indexedDB"
         },
         {
             "name" : "complete",
             "type" : "OfflineAudioCompletionEvent",
             "spec" : "Web Audio API",
             "fired" : "The rendering of an OfflineAudioContext is terminated",
-            "url" : ""
+            "url" : "complete"
         },
         {
             "name" : "compositionend",
             "type" : "CompositionEvent",
             "spec" : "DOM L3",
             "fired" : "The composition of a passage of text has been completed or canceled",
-            "url" : ""
+            "url" : "compositionend"
         },
         {
             "name" : "compositionstart",
             "type" : "CompositionEvent",
             "spec" : "DOM L3",
             "fired" : "The composition of a passage of text is preparted - like keypress but works with other devices",
-            "url" : ""
+            "url" : "compositionstart"
         },
         {
             "name" : "compositionupdate",
             "type" : "CompositionEvent",
             "spec" : "DOM L3",
             "fired" : "a character is added to a passage of text being composed",
-            "url" : ""
+            "url" : "compositionupdate"
         },
         {
             "name" : "contextmenu",
             "type" : "MouseEvent",
             "spec" : "HTML5",
             "fired" : "The right button of the mouse is clicked (before the context menu is displayed)",
-            "url" : ""
+            "url" : "contextmenu"
         },
         {
             "name" : "copy",
             "type" : "ClipboardEvent",
             "spec" : "Clipboard",
             "fired" : "The text selection has been added to the clipboard",
-            "url" : ""
+            "url" : "copy"
         },
         {
             "name" : "cut",
             "type" : "ClipboardEvent",
             "spec" : "Clipboard",
             "fired" : "The text selection has been removed from the document and added to the clipboard",
-            "url" : ""
+            "url" : "cut"
         },
         {
             "name" : "dblclick",
             "type" : "MouseEvent",
             "spec" : "DOM L3",
             "fired" : "a pointing device button is clicked twice on an element",
-            "url" : ""
+            "url" : "dblclick"
         },
         {
             "name" : "devicelight",
             "type" : "DeviceLightEvent",
             "spec" : "Ambient Light Events",
             "fired" : "Fresh data is available from a light sensor",
-            "url" : ""
+            "url" : "devicelight"
         },
         {
             "name" : "devicemotion",
             "type" : "DeviceMotionEvent",
             "spec" : "Device Orientation Events",
             "fired" : "Fresh data is available from an orientation sensor",
-            "url" : ""
+            "url" : "devicemotion"
         },
         {
             "name" : "deviceproximity",
             "type" : "DeviceProximityEvent",
             "spec" : "Proximity Events",
             "fired" : "Fresh data is available from a proximity sensor",
-            "url" : ""
+            "url" : "deviceproximity"
         },
         {
             "name" : "dischargetimingchange",
             "type" : "Event",
             "spec" : "Battery status",
             "fired" : "The dischargingTime attribute has been updated",
-            "url" : ""
+            "url" : "dischargetimingchange"
         },
         {
             "name" : "DOMContentLoaded",
             "type" : "Event",
             "spec" : "HTML5",
             "fired" : "The document has finished loading(but not its dependent resources)",
-            "url" : ""
+            "url" : "domcontentloaded"
         },
         {
             "name" : "downloading",
             "type" : "Event",
             "spec" : "Offline",
             "fired" : "The user agent has found an update and is fetching it, or is downloading the resources listed by the cache manifest for the first time",
-            "url" : ""
+            "url" : "downloading"
         },
         {
             "name" : "drag",
             "type" : "DragEvent",
             "spec" : "HTML5",
             "fired" : "An element or text selection is being dragged (every 350ms)",
-            "url" : ""
+            "url" : "drag"
         },
         {
             "name" : "dragend",
             "type" : "DragEvent",
             "spec" : "HTML5",
             "fired" : "a drag operation has ended(by releasing a mouse button or hitting the escape key)",
-            "url" : ""
+            "url" : "dragend"
         },
         {
             "name" : "dragenter",
             "type" : "DragEvent",
             "spec" : "HTML5",
             "fired" : "a dragged element or text selection enters a valid drop target",
-            "url" : ""
+            "url" : "dragenter"
         },
         {
             "name" : "dragleave",
             "type" : "DragEvent",
             "spec" : "HTML5",
             "fired" : "A dragged element or text selection leaves a valid drop target",
-            "url" : ""
+            "url" : "dragleave"
         },
         {
             "name" : "dragover",
             "type" : "DragEvent",
             "spec" : "HTML5",
             "fired" : "An element or text selection is being dragged over a valid drop target(every 350ms)",
-            "url" : ""
+            "url" : "dragover"
         },
         {
             "name" : "dragstart",
             "type" : "DragEvent",
             "spec" : "HTML5",
             "fired" : "The user starts dragging an element or text selection",
-            "url" : ""
+            "url" : "dragstart"
         },
         {
             "name" : "drop",
             "type" : "DragEvent",
             "spec" : "HTML5",
             "fired" : "The element is dropped on a valid drop target",
-            "url" : ""
+            "url" : "drop"
         },
         {
             "name" : "durationchange",
             "type" : "Event",
             "spec" : "HTML5 media",
             "fired" : "The duration attribute has been updated",
-            "url" : ""
+            "url" : "durationchange"
         },
         {
             "name" : "emptied",
             "type" : "Event",
             "spec" : "HTML5 media",
             "fired" : "The media has become empty; for example, this event is sent if the media has already been loaded and the load() method is called to reload it",
-            "url" : ""
+            "url" : "emptied"
         },
         {
             "name" : "end",
             "type" : "Event",
             "spec" : "Web Speech API",
             "fired" : "The speech recognition service has disconnected",
-            "url" : ""
+            "url" : "end"
         },
         {
             "name" : "ended",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "Playback has stopped because the end of the media was reached",
-            "url" : ""
+            "url" : "ended"
         },
         {
             "name" : "ended",
             "type" : "Event",
             "spec" : "Web Audio API",
             "fired" : "",
-            "url" : ""
+            "url" : "ended_(Web_Audio)"
         },
         {
             "name" : "endEvent",
             "type" : "TimeEvent",
             "spec" : "SVG",
             "fired" : "A SMIL animation element ends",
-            "url" : ""
+            "url" : "endEvent"
         },
         {
             "name" : "error",
             "type" : "UIEvent",
             "spec" : "DOM L3",
             "fired" : "A resource failed to load",
-            "url" : ""
+            "url" : "error"
         },
         {
             "name" : "error",
             "type" : "ProgressEvent",
             "spec" : "Progress and XMLHttpRequest",
             "fired" : "Progression has failed",
-            "url" : ""
+            "url" : "error"
         },
         {
             "name" : "error",
             "type" : "Event",
             "spec" : "Offline",
             "fired" : "An error occured while downloading the cache manifest or updating the content of the application",
-            "url" : ""
+            "url" : "error"
         },
         {
             "name" : "error",
             "type" : "Event",
             "spec" : "WebSocket",
             "fired" : "A WebSocket connection has been closed with prejudice(some data couldn't be sent, for example)",
-            "url" : ""
+            "url" : "error"
         },
         {
             "name" : "error",
             "type" : "Event",
             "spec" : "Server Sent Events",
             "fired" : "An event source connection has been failed",
-            "url" : ""
+            "url" : "error"
         },
         {
             "name" : "error",
             "type" : "Event",
             "spec" : "IndexedDB",
             "fired" : "A request caused an error and failed",
-            "url" : ""
+            "url" : "error"
         },
         {
             "name" : "error",
             "type" : "Event",
             "spec" : "Web Speech API",
             "fired" : "A speech recognition error occurs",
-            "url" : ""
+            "url" : "error_%28SpeechRecognitionError%29"
         },
         {
             "name" : "focus",
             "type" : "FocusEvent",
             "spec" : "DOM L3",
             "fired" : "An element has received focus(does not bubble)",
-            "url" : ""
+            "url" : "focus"
         },
         {
             "name" : "fullscreenchange",
             "type" : "Event",
             "spec" : "Full Screen",
             "fired" : "An element was turned to full screen mode or back to normal mode",
-            "url" : ""
+            "url" : "fullscreenchange"
         },
         {
             "name" : "fullscreenerror",
             "type" : "Event",
             "spec" : "Full Screen",
             "fired" : "It was impossible to switch to fullscreen mode for technical reasons or because the permission was denied",
-            "url" : ""
+            "url" : "fullscreenerror"
         },
         {
             "name" : "gamepadconnected",
             "type" : "GamepadEvent",
             "spec" : "Gamepad",
             "fired" : "A gamepad has been connected",
-            "url" : ""
+            "url" : "gamepadconnected"
         },
         {
             "name" : "gamepaddisconnected",
             "type" : "GamepadEvent",
             "spec" : "Gamepad",
             "fired" : "a gamepad has been disconnected",
-            "url" : ""
+            "url" : "gamepaddisconnected"
         },
         {
             "name" : "gotpointercapture",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "Element reeives pointer capture",
-            "url" : ""
+            "url" : "gotpointercapture"
         },
         {
             "name" : "hashchange",
             "type" : "HashChangeEvent",
             "spec" : "HTML5",
             "fired" : "The fragment identifier of the url has changed(part after #)",
-            "url" : ""
+            "url" : "hashchange"
         },
         {
             "name" : "lostpointercapture",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "Element lost pointer capture",
-            "url" : ""
+            "url" : "lostpointercapture"
         },
         {
             "name" : "input",
             "type" : "Event",
             "spec" : "HTML5",
             "fired" : "The value of an element changes or the content of an element with the attribute 'contenteditable' is modified",
-            "url" : ""
+            "url" : "input"
         },
         {
             "name" : "invalid",
             "type" : "Event",
             "spec" : "HTML5",
             "fired" : "A submittable element has been checked and doesn't satisfy its constraints",
-            "url" : ""
+            "url" : "invalid"
         },
         {
             "name" : "keydown",
             "type" : "KeyboardEvent",
             "spec" : "DOM L3",
             "fired" : "a key is pressed down",
-            "url" : ""
+            "url" : "keydown"
         },
         {
             "name" : "keypress",
             "type" : "KeyboardEvent",
             "spec" : "DOM L3",
             "fired" : "A key is pressed down and that key normall produces a character value (use input instead)",
-            "url" : ""
+            "url" : "keypress"
         },
         {
             "name" : "keyup",
             "type" : "KeyboardEvent",
             "spec" : "DOM L3",
             "fired" : "A key is released",
-            "url" : ""
+            "url" : "keyup"
         },
         {
             "name" : "languagechange",
             "type" : "Event",
             "spec" : "HTML5.1",
             "fired" : "",
-            "url" : ""
+            "url" : "languagechange"
         },
         {
             "name" : "levelchange",
             "type" : "Event",
             "spec" : "Battery status",
             "fired" : "the level attribute has been updated",
-            "url" : ""
+            "url" : "levelchange"
         },
         {
             "name" : "load",
             "type" : "UIEvent",
             "spec" : "DOM L3",
             "fired" : "A resource and its depeneded resources have finished loaded",
-            "url" : ""
+            "url" : "load"
         },
         {
             "name" : "load",
             "type" : "ProgressEvent",
             "spec" : "Progress and XMLHttpRequest",
             "fired" : "Progress has been successful",
-            "url" : ""
+            "url" : "load_(ProgressEvent)"
         },
         {
             "name" : "loadeddata",
             "type" : "Event",
             "spec" : "HTML5 media",
             "fired" : "The first frame of the media has finished loading",
-            "url" : ""
+            "url" : "loadeddata"
         },
         {
             "name" : "loadedmetadata",
             "type" : "Event",
             "spec" : "HTML5 media",
             "fired" : "The metadata has been loaded",
-            "url" : ""
+            "url" : "loadedmetadata"
         },
         {
             "name" : "loadend",
             "type" : "ProgressEvent",
             "spec" : "Progress and XMLHttpRequest",
             "fired" : "Progress has stopped (occurs after error, abort or load have been dispached)",
-            "url" : ""
+            "url" : "loadend"
         },
         {
             "name" : "loadstart",
             "type" : "ProgressEvent",
             "spec" : "Progress and XMLHttpRequest",
             "fired" : "Progress has begun",
-            "url" : ""
+            "url" : "loadstart"
         },
         {
             "name" : "message",
             "type" : "MessageEvent",
             "spec" : "WebSockets",
             "fired" : "A message is received through a WebSocket",
-            "url" : ""
+            "url" : "message_websocket"
         },
         {
             "name" : "message",
             "type" : "MessageEvent",
             "spec" : "Web Workers",
             "fired" : "A message is received from a Web Worker",
-            "url" : ""
+            "url" : "message_webworker"
         },
         {
             "name" : "message",
             "type" : "MessageEvent",
             "spec" : "Web Messaging",
             "fired" : "A message is received from a child (i)frame ora parent window",
-            "url" : ""
+            "url" : "message_webmessaging"
         },
         {
             "name" : "message",
             "type" : "MessageEvent",
             "spec" : "Server Sent Event",
             "fired" : "a message is received through an event source",
-            "url" : ""
+            "url" : "message_serversentevents"
         },
         {
             "name" : "mousedown",
             "type" : "MouseEvent",
             "spec" : "DOM L3",
             "fired" : "a pointing device is pressed on an element",
-            "url" : ""
+            "url" : "mousedown"
         },
         {
             "name" : "mouseenter",
             "type" : "MouseEvent",
             "spec" : "DOM L3",
             "fired" : "a pointing device is moved onto the element that has the listener attatched",
-            "url" : ""
+            "url" : "mouseenter"
         },
         {
             "name" : "mouseleave",
             "type" : "MouseEvent",
             "spec" : "DOM L3",
             "fired" : "A pointing device is moved off of the element that has the listener attatched",
-            "url" : ""
+            "url" : "mouseleave"
         },
         {
             "name" : "mousemove",
             "type" : "MouseEvent",
             "spec" : "DOM L3",
             "fired" : "A pointing deveice is moved over an element",
-            "url" : ""
+            "url" : "mousemove"
         },
         {
             "name" : "mouseout",
             "type" : "MouseEvent",
             "spec" : "DOM L3",
             "fired" : "A pointing device is moved onto the element that has the listener attached or onto one of its children",
-            "url" : ""
+            "url" : "mouseout"
         },
         {
             "name" : "mouseup",
             "type" : "MouseEvent",
             "spec" : "DOM L3",
             "fired" : "A pointing device button is release over an element",
-            "url" : ""
+            "url" : "mouseup"
         },
         {
             "name" : "nomatch",
             "type" : "SpeechRecognitionEvent",
             "spec" : "Web Speech API",
             "fired" : "The speech recognition service returns a final result with no signifigant recognition",
-            "url" : ""
+            "url" : "nomatch"
         },
         {
             "name" : "notificationclick",
             "type" : "NotificationEvent",
             "spec" : "Notifications API",
             "fired" : "A system notification spawned by ServiceWorkerRegistration.showNotification() has been clicked",
-            "url" : ""
+            "url" : "notificationclick"
         },
         {
             "name" : "noupdate",
             "type" : "Event",
             "spec" : "Offline",
             "fired" : "The manifest hasn't changed",
-            "url" : ""
+            "url" : "noupdate"
         },
         {
             "name" : "obsolete",
             "type" : "Event",
             "spec" : "Offline",
             "fired" : "The manifest was found to have become a 404 or 310 page, so the application cache is being deleted",
-            "url" : ""
+            "url" : "obsolete"
         },
         {
             "name" : "offline",
             "type" : "Event",
             "spec" : "HTML5 offline",
             "fired" : "The browser has lost access to the network",
-            "url" : ""
+            "url" : "offline"
         },
         {
             "name" : "online",
             "type" : "Event",
             "spec" : "HTML5 offline",
             "fired" : "The browser has gained access to the network (some particular web pages might be down)",
-            "url" : ""
+            "url" : "online"
         },
         {
             "name" : "open",
             "type" : "Event",
             "spec" : "WebSocket",
             "fired" : "A WebSocket connection has been established",
-            "url" : ""
+            "url" : "open_websocket"
         },
         {
             "name" : "open",
             "type" : "Event",
             "spec" : "Server Sent Events",
             "fired" : "An event source connection has been established",
-            "url" : ""
+            "url" : "open_serversentevents"
         },
         {
             "name" : "orientationchange",
             "type" : "Event",
             "spec" : "Screen Orientation",
             "fired" : "The orientation of the device has changed",
-            "url" : ""
+            "url" : "orientationchange"
         },
         {
             "name" : "pagehide",
             "type" : "PageTransitionEvent",
             "spec" : "HTML5",
             "fired" : "A session history entry is being traversed from",
-            "url" : ""
+            "url" : "pagehide"
         },
         {
             "name" : "pageshow",
             "type" : "PageTransitionEvent",
             "spec" : "HTML5",
             "fired" : "A session history entry is being traversed to",
-            "url" : ""
+            "url" : "pageshow"
         },
         {
             "name" : "paste",
             "type" : "ClipboardEvent",
             "spec" : "Clipboard",
             "fired" : "Data has been transfered from the system clipboard to the document",
-            "url" : ""
+            "url" : "paste"
         },
         {
             "name" : "pause",
             "type" : "Event",
             "spec" : "HTML5 media",
             "fired" : "Playback has been paused",
-            "url" : ""
+            "url" : "pause"
         },
         {
             "name" : "pointercancel",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "a pointer is unlikey to produce any more events",
-            "url" : ""
+            "url" : "pointercancel"
         },
         {
             "name" : "pointerdown",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "The pointer enters the active buttons state",
-            "url" : ""
+            "url" : "pointerdown"
         },
         {
             "name" : "pointerenter",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "Pointing device is mobed inside the hit-testing boundry",
-            "url" : ""
+            "url" : "pointerenter"
         },
         {
             "name" : "pointerleave",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "Pointing device is moved out of the hit-testing boundary",
-            "url" : ""
+            "url" : "pointerleave"
         },
         {
             "name" : "pointerlockchange",
             "type" : "Event",
             "spec" : "Pointer Lock",
             "fired" : "The pointer was locked or release",
-            "url" : ""
+            "url" : "pointerlockchange"
         },
         {
             "name" : "pointerlockerror",
             "type" : "Event",
             "spec" : "Pointer Lock",
             "fired" : "it was impossible to lock the pointer",
-            "url" : ""
+            "url" : "pointerlockerror"
         },
         {
             "name" : "pointermove",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "The pointer changed coordinates",
-            "url" : ""
+            "url" : "pointermove"
         },
         {
             "name" : "pointerout",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "The pointing device moved out of hit-testing boundary or leaves detectable hover range",
-            "url" : ""
+            "url" : "pointerout"
         },
         {
             "name" : "pointerover",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "The pointing device is moved into the hit-testing boundary",
-            "url" : ""
+            "url" : "pointerover"
         },
         {
             "name" : "pointerup",
             "type" : "PointerEvent",
             "spec" : "Pointer Events",
             "fired" : "The pointer leaves the active buttons state",
-            "url" : ""
+            "url" : "pointerup"
         },
         {
             "name" : "play",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "Playback has begun",
-            "url" : ""
+            "url" : "play"
         },
         {
             "name" : "playing",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "Playback is ready to start after having been paused or delayed due to lack of data",
-            "url" : ""
+            "url" : "playing"
         },
         {
             "name" : "popstate",
             "type" : "PopStateEvent",
             "spec" : "HTML5",
             "fired" : "A session history entry is being navigated to(in certain cases)",
-            "url" : ""
+            "url" : "popstate"
         },
         {
             "name" : "progress",
             "type" : "ProgressEvent",
             "spec" : "Progress and XMLHttpReuest",
             "fired" : "In progress",
-            "url" : ""
+            "url" : "progress"
         },
         {
             "name" : "progress",
             "type" : "PogressEvent",
             "spec" : "Offline",
             "fired" : "The user agent is downloading resources listed by the manifest",
-            "url" : ""
+            "url" : "progress_(appcache_event)"
         },
         {
             "name" : "push",
             "type" : "PushEvent",
             "spec" : "Push API",
             "fired" : "A Service Worker has received a push message",
-            "url" : ""
+            "url" : "push"
         },
         {
             "name" : "pushsubscriptionchange",
             "type" : "PushEvent",
             "spec" : "Push API",
             "fired" : "a PushSubscription has expired",
-            "url" : ""
+            "url" : "pushsubscriptionchange"
         },
         {
             "name" : "ratechange",
             "type" : "Event",
             "spec" : "HTML5 media",
             "fired" : "The playback rate has changed",
-            "url" : ""
+            "url" : "ratechange"
         },
         {
             "name" : "readystatechange",
             "type" : "Event",
             "spec" : "HTML5 and XMLHttpRequest",
             "fired" : "the readystate attribute of a document has changed",
-            "url" : ""
+            "url" : "readystatechange"
         },
         {
             "name" : "repeatEvent",
             "type" : "TimeEvent",
             "spec" : "SVG",
             "fired" : "A SMIL animation element is repeated",
-            "url" : ""
+            "url" : "repeatevent"
         },
         {
             "name" : "reset",
             "type" : "Event",
             "spec" : "DOM L2, HTML5",
             "fired" : "A form is reset",
-            "url" : ""
+            "url" : "reset"
         },
         {
             "name" : "result",
             "type" : "SpeechRecognitionEvent",
             "spec" : "Web Speech API",
             "fired" : "The speech recognition service returns a result, something has been positively recognized and this has been communicated back to the app",
-            "url" : ""
+            "url" : "result"
         },
         {
             "name" : "scroll",
             "type" : "UIEvent",
             "spec" : "DOM L3",
             "fired" : "The document view or an element has been scrolled",
-            "url" : ""
+            "url" : "scroll"
         },
         {
             "name" : "seeked",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "a seek operation completed",
-            "url" : ""
+            "url" : "seeked"
         },
         {
             "name" : "seeking",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "a seek operation began",
-            "url" : ""
+            "url" : "seeking"
         },
         {
             "name" : "select",
             "type" : "UIEvent",
             "spec" : "DOM L3",
             "fired" : "Some text is being selected",
-            "url" : ""
+            "url" : "select"
         },
         {
             "name" : "selectstart",
             "type" : "Event",
             "spec" : "Selection API",
             "fired" : "a selection just started",
-            "url" : ""
+            "url" : "selectstart"
         },
         {
             "name" : "selectionchange",
             "type" : "Event",
             "spec" : "Selection API",
             "fired" : "The selection in the document has been changed",
-            "url" : ""
+            "url" : "selectionchange"
         },
         {
             "name" : "show",
             "type" : "MouseEvent",
             "spec" : "HTML5",
             "fired" : "a contextmenu event was fired on/bubbled to an element that has a contextmenu attribute",
-            "url" : ""
+            "url" : "show"
         },
         {
             "name" : "soundend",
             "type" : "Event",
             "spec" : "Web Speech API",
             "fired" : "Any sound - recognizable speech or not - has stopped being detected",
-            "url" : ""
+            "url" : "soundend"
         },
         {
             "name" : "soundstart",
             "type" : "Event",
             "spec" : "Web Speech API",
             "fired" : "Any sound - recognizable speech or not - has been detected",
-            "url" : ""
+            "url" : "soundstart"
         },
         {
             "name" : "speechend",
             "type" : "Event",
             "spec" : "Web Speech API",
             "fired" : "speech recognized by the speech service has stopped being detected",
-            "url" : ""
+            "url" : "speechend"
         },
         {
             "name" : "speechstart",
             "type" : "Event",
             "spec" : "Web Speech API",
             "fired" : "Sound that is recognsed by the speech recognition service as speech has been detected",
-            "url" : ""
+            "url" : "speechstart"
         },
         {
             "name" : "stalled",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "The user agent is trying to fetch media data, but data is unexpectedly not fourthcoming",
-            "url" : ""
+            "url" : "stalled"
         },
         {
             "name" : "start",
             "type" : "Event",
             "spec" : "Web Speech API",
             "fired" : "The speech recognition service has begun listening to incoming audio with intent to recognize grammars assosiated with current speech recogntion",
-            "url" : ""
+            "url" : "start"
         },
         {
             "name" : "storage",
             "type" : "StorageEvent",
             "spec" : "Web Storage",
             "fired" : "A storage area(localstorage or essionstorage) has changed",
-            "url" : ""
+            "url" : "storage"
         },
         {
             "name" : "submit",
             "type" : "Event",
             "spec" : "DOM L2, HTML5",
             "fired" : "A form is submitted",
-            "url" : ""
+            "url" : "submit"
         },
         {
             "name" : "success",
             "type" : "Event",
             "spec" : "IndexedDB",
             "fired" : "A request successfully completed",
-            "url" : ""
+            "url" : "success_indexedDB"
         },
         {
             "name" : "suspend",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "Media data loading has been suspended",
-            "url" : ""
+            "url" : "suspend"
         },
         {
             "name" : "SVGAbort",
             "type" : "SVGEvent",
             "spec" : "SVG",
             "fired" : "Page loading has been stopped beore the SVG was loaded",
-            "url" : ""
+            "url" : "SVGAbort"
         },
         {
             "name" : "SVGError",
             "type" : "SVGEvent",
             "spec" : "SVG",
             "fired" : "An error has occurred before the SVG was loaded",
-            "url" : ""
+            "url" : "SVGError"
         },
         {
             "name" : "SVGLoad",
             "type" : "SVGEvent",
             "spec" : "SVG",
             "fired" : "An SVG document has been loaded and parsed",
-            "url" : ""
+            "url" : "SVGLoad"
         },
         {
             "name" : "SVGResize",
             "type" : "SVGEvent",
             "spec" : "SVG",
             "fired" : "An SVG document is being resized",
-            "url" : ""
+            "url" : "sVGResize"
         },
         {
             "name" : "SVGScroll",
             "type" : "SVGEvent",
             "spec" : "SVG",
             "fired" : "An SVG document is being scrolled",
-            "url" : ""
+            "url" : "SVGScroll"
         },
         {
             "name" : "SVGUnload",
             "type" : "SVGEvent",
             "spec" : "SVG",
             "fired" : "An SVG document has been removed from a window or frame",
-            "url" : ""
+            "url" : "SVGUnload"
         },
         {
             "name" : "SVGZoom",
             "type" : "SVGZoomEvent",
             "spec" : "SVG",
             "fired" : "An SVG document is being zoomed",
-            "url" : ""
+            "url" : "SVGZoom"
         },
         {
             "name" : "timeout",
             "type" : "ProgressEvent",
             "spec" : "XMLHttpReqest",
             "fired" : "",
-            "url" : ""
+            "url" : "timout"
         },
         {
             "name" : "timeupdate",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "The time indicated by the currentTime attribute has been updated",
-            "url" : ""
+            "url" : "timeupdate"
         },
         {
             "name" : "touchcancel",
             "type" : "TouchEvent",
             "spec" : "Touch Events",
             "fired" : "A touch point has been disrupted in an implementation specific manners",
-            "url" : ""
+            "url" : "touchcancel"
         },
         {
             "name" : "touchend",
             "type" : "TouchEvent",
             "spec" : "Touch Events",
             "fired" : "A touch point is removed from the touch surface",
-            "url" : ""
+            "url" : "touchend"
         },
         {
             "name" : "touchmove",
             "type" : "TouchEvent",
             "spec" : "Touch Events",
             "fired" : "A touch point is moved along the touch surface",
-            "url" : ""
+            "url" : "touchmove"
         },
         {
             "name" : "touchstart",
             "type" : "Touch Event",
             "spec" : "Touch Events",
             "fired" : "A touch point is placed on the touch surface",
-            "url" : ""
+            "url" : "touchstart"
         },
         {
             "name" : "transitionend",
             "type" : "TransitionEvent",
             "spec" : "CSS Transition",
             "fired" : "A CSS Transition has completed",
-            "url" : ""
+            "url" : "transitionend"
         },
         {
             "name" : "unload",
             "type" : "UIEvent",
             "spec" : "DOM L3",
             "fired" : "The document or a dependent resource is being unloaded",
-            "url" : ""
+            "url" : "unload"
         },
         {
             "name" : "updateready",
             "type" : "Event",
             "spec" : "Offline",
             "fired" : "The resources listed in the manifest have been newly redownloaded, and the script can use swapCache() to switch to the new cache",
-            "url" : ""
+            "url" : "updateready"
         },
         {
             "name" : "upgradeneeded",
             "type" : "",
             "spec" : "IndexedDB",
             "fired" : "An attempt was made to open a database with a version number higher than its current version",
-            "url" : ""
+            "url" : "upgradeneeded_indexedDB"
         },
         {
             "name" : "userproximity",
             "type" : "UserProximityEvent",
             "spec" : "Proximity Events",
             "fired" : "Fresh data is available from a proximity sensory",
-            "url" : ""
+            "url" : "userproximity"
         },
         {
             "name" : "versionchange",
             "type" : "",
             "spec" : "IndexedDB",
             "fired" : "a version change transaction completed",
-            "url" : ""
+            "url" : "versionchange_indexedDB"
         },
         {
             "name" : "visibilitychange",
             "type" : "Event",
             "spec" : "Page Visibility",
             "fired" : "The content of a tab has become visible or has been hidden",
-            "url" : ""
+            "url" : "visibilitychange"
         },
         {
             "name" : "volumechange",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "The volume has changed",
-            "url" : ""
+            "url" : "volumechange"
         },
         {
             "name" : "waiting",
             "type" : "Event",
             "spec" : "HTML5 Media",
             "fired" : "Playback has stopped because of a temporary lack of data",
-            "url" : ""
+            "url" : "waiting"
         },
         {
             "name" : "wheel",
             "type" : "WheelEvent",
             "spec" : "DOM L3",
             "fired" : "A Wheel button of a pointing device is rotated in any direction",
-            "url" : ""
+            "url" : "wheel"
         }
        ]
 }
