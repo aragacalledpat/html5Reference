@@ -919,133 +919,76 @@
             "fired" : "A touch point is removed from the touch surface"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "touchmove",
+            "type" : "TouchEvent",
+            "spec" : "Touch Events",
+            "fired" : "A touch point is moved along the touch surface"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "touchstart",
+            "type" : "Touch Event",
+            "spec" : "Touch Events",
+            "fired" : "A touch point is placed on the touch surface"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "transitionend",
+            "type" : "TransitionEvent",
+            "spec" : "CSS Transition",
+            "fired" : "A CSS Transition has completed"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "unload",
+            "type" : "UIEvent",
+            "spec" : "DOM L3",
+            "fired" : "The document or a dependent resource is being unloaded"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "updateready",
+            "type" : "Event",
+            "spec" : "Offline",
+            "fired" : "The resources listed in the manifest have been newly redownloaded, and the script can use swapCache() to switch to the new cache"
         },
         {
-            "name" : "",
+            "name" : "upgradeneeded",
             "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "spec" : "IndexedDB",
+            "fired" : "An attempt was made to open a database with a version number higher than its current version"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "userproximity",
+            "type" : "UserProximityEvent",
+            "spec" : "Proximity Events",
+            "fired" : "Fresh data is available from a proximity sensory"
         },
         {
-            "name" : "",
+            "name" : "versionchange",
             "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "spec" : "IndexedDB",
+            "fired" : "a version change transaction completed"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "visibilitychange",
+            "type" : "Event",
+            "spec" : "Page Visibility",
+            "fired" : "The content of a tab has become visible or has been hidden"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "volumechange",
+            "type" : "Event",
+            "spec" : "HTML5 Media",
+            "fired" : "The volume has changed"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "waiting",
+            "type" : "Event",
+            "spec" : "HTML5 Media",
+            "fired" : "Playback has stopped because of a temporary lack of data"
         },
         {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
-        },
-        {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
-        },
-        {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
-        },
-        {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
-        },
-        {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
-        },
-        {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
-        },
-        {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
-        },
-        {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
-        },
-        {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
-        },
-        {
-            "name" : "",
-            "type" : "",
-            "spec" : "",
-            "fired" : ""
+            "name" : "wheel",
+            "type" : "WheelEvent",
+            "spec" : "DOM L3",
+            "fired" : "A Wheel button of a pointing device is rotated in any direction"
         }
-
-
-
        ]
 }
