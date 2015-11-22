@@ -11,8 +11,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="list-group">
-                <a ng-repeat="event in events | filter:eventSearch" href="#" class="list-group-item">
-                    <h4 class="list-group-item-heading">{{event.name}} ({{event.type}})</h4>
+                <a ng-repeat="event in events | filter:eventSearch" href="https://developer.mozilla.org/en-US/docs/Web/Events{{event.url}}" class="list-group-item">
+                    <h4 class="list-group-item-heading">{{event.name}} ({{event.type}}, {{event.spec}})</h4>
                     <p class="list-group-item-text">{{event.fired}}</p>
                 </a>
             </div>
