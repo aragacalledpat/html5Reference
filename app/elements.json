@@ -330,18 +330,18 @@
     },
     {
         "name" : "caption",
-        "description" : "",
+        "description" : "tagline for a table",
         "attributes" : []
     },
     {
         "name" : "col",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["span"]
     },
     {
         "name" : "colgroup",
         "description" : "",
-        "attributes" : []
+        "attributes" : ["span"]
     },
     {
         "name" : "table",
@@ -355,8 +355,8 @@
     },
     {
         "name" : "td",
-        "description" : "",
-        "attributes" : []
+        "description" : "table data",
+        "attributes" : ["colspan","headers", "rowspan"]
     },
     {
         "name" : "tfoot",
@@ -365,8 +365,8 @@
     },
     {
         "name" : "th",
-        "description" : "",
-        "attributes" : []
+        "description" : "table heading",
+        "attributes" : ["colspan", "headers","rowspan","scope"]
     },
     {
         "name" : "thead",
@@ -374,7 +374,7 @@
     },
     {
         "name" : "tr",
-        "description" : "",
+        "description" : "table row",
         "attributes" : []
     },
     {
