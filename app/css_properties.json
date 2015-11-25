@@ -1,0 +1,125 @@
+{
+    "props" : [
+        {"name":"color","description" : "blah blah"},
+        {"name":"color","description" : "blah blah"}
+
+    ],
+    "pseudo-classes" : [
+        {
+            "name" : ":active",
+            "description" : ""
+        },{
+            "name" : ":any",
+            "description" : ""
+        },{
+            "name" : ":checked",
+            "description" : ""
+        },{
+            "name" : ":default",
+            "description" : ""
+        },{
+            "name" : ":dir()",
+            "description" : ""
+        },{
+            "name" : ":disabled",
+            "description" : ""
+        },{
+            "name" : ":empty",
+            "description" : ""
+        },{
+            "name" : ":enabled",
+            "description" : ""
+        },{
+            "name" : ":first",
+            "description" : ""
+        },{
+            "name" : ":first-child",
+            "description" : ""
+        },{
+            "name" : ":first-of-type",
+            "description" : ""
+        },{
+            "name" : ":fullscreen",
+            "description" : ""
+        },{
+            "name" : ":focus",
+            "description" : ""
+        },{
+            "name" : ":hover",
+            "description" : ""
+        },{
+            "name" : ":indeterminate",
+            "description" : ""
+        },{
+            "name" : ":in-range",
+            "description" : ""
+        },{
+            "name" : ":invalid",
+            "description" : ""
+        },{
+            "name" : ":lang()",
+            "description" : ""
+        },{
+            "name" : ":last-child",
+            "description" : ""
+        },{
+            "name" : ":last-of-type",
+            "description" : ""
+        },{
+            "name" : ":left",
+            "description" : ""
+        },{
+            "name" : ":link",
+            "description" : ""
+        },{
+            "name" : ":not()",
+            "description" : ""
+        },{
+            "name" : ":nth-child()",
+            "description" : ""
+        },{
+            "name" : ":nth-last-child()",
+            "description" : ""
+        },{
+            "name" : ":nth-last-of-type()",
+            "description" : ""
+        },{
+            "name" : ":nth-of-type()",
+            "description" : ""
+        },{
+            "name" : ":optional",
+            "description" : ""
+        },{
+            "name" : ":out-of-range",
+            "description" : ""
+        },{
+            "name" : ":read-only",
+            "description" : ""
+        },{
+            "name" : ":read-write",
+            "description" : ""
+        },{
+            "name" : ":required",
+            "description" : ""
+        },{
+            "name" : ":right",
+            "description" : ""
+        },{
+            "name" : ":root",
+            "description" : ""
+        },{
+            "name" : ":scope",
+            "description" : ""
+        },{
+            "name" : ":target",
+            "description" : ""
+        },{
+            "name" : ":valid",
+            "description" : ""
+        },{
+            "name" : ":visited",
+            "description" : ""
+        } 
+    ]
+
+}
