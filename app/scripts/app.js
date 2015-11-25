@@ -24,6 +24,11 @@ angular
         controller: 'EventsCtrl',
         controllerAs: 'events'
       })
+      .when('/cssproperties', {
+        templateUrl: 'views/cssproperties.html',
+        controller: 'CsspropertiesCtrl',
+        controllerAs: 'Cssproperties'
+      })
       .otherwise({
         redirectTo: '/'
       });
