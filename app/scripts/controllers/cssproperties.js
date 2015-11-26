@@ -8,10 +8,14 @@
  * Controller of the html5ReferenceApp
  */
 angular.module('html5ReferenceApp')
-  .controller('CsspropertiesCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('CsspropertiesCtrl', ["$scope","$http", function ($scope, $http) {
+
+      $scope.pseudoClasses;
+
+      $http.get('/css_properties.json')
+          .success(function(data){
+               
+              $scope.pseudoClasses = data.pseudoclasses;
+              
+          });
+  }]);
