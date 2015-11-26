@@ -4,121 +4,115 @@
         {"name":"color","description" : "blah blah"}
 
     ],
-    "pseudo-classes" : [
+    "pclasses" : [
         {
             "name" : ":active",
-            "description" : ""
-        },{
-            "name" : ":any",
-            "description" : ""
+            "description" : "in the middle of a click, when a mouse is being held down"
         },{
             "name" : ":checked",
-            "description" : ""
+            "description" : " for input/radio buttons when selected"
         },{
             "name" : ":default",
-            "description" : ""
-        },{
-            "name" : ":dir()",
-            "description" : ""
+            "description" : "selects default element in a group of similar elements"
         },{
             "name" : ":disabled",
-            "description" : ""
+            "description" : "any elements that have been disabled"
         },{
             "name" : ":empty",
-            "description" : ""
+            "description" : "selects items that have no children"
         },{
             "name" : ":enabled",
-            "description" : ""
+            "description" : "items that are not disabled"
         },{
             "name" : ":first",
-            "description" : ""
+            "description" : "styling of a first page while printing"
         },{
             "name" : ":first-child",
-            "description" : ""
+            "description" : "any element that is the first child of its parent"
         },{
             "name" : ":first-of-type",
-            "description" : ""
-        },{
-            "name" : ":fullscreen",
-            "description" : ""
+            "description" : "selects first element of a certain type in a list of children"
         },{
             "name" : ":focus",
-            "description" : ""
+            "description" : "element that has gained focused"
         },{
             "name" : ":hover",
-            "description" : ""
+            "description" : "element being hovered over"
         },{
             "name" : ":indeterminate",
-            "description" : ""
+            "description" : "checkbox whos state is indeterminate"
         },{
             "name" : ":in-range",
-            "description" : ""
+            "description" : "if element has a min and max, element is selected if it is within the specified range"
         },{
             "name" : ":invalid",
-            "description" : ""
+            "description" : "form element that fails to validate"
         },{
-            "name" : ":lang()",
-            "description" : ""
+            "name" : ":lang(<language-code>)",
+            "description" : "matches elements based on their specified language"
         },{
             "name" : ":last-child",
-            "description" : ""
+            "description" : "matches last child in a series of child elements"
         },{
             "name" : ":last-of-type",
-            "description" : ""
+            "description" : "last sibling of a given type of element"
         },{
             "name" : ":left",
-            "description" : ""
+            "description" : "describes left page when the document is printed"
         },{
             "name" : ":link",
+            "description" : "links inside elements that haven't been visited"
+        },{
+            "name" : ":not(<selector>)",
+            "description" : "the negation pseudo class"
+        },{
+            "name" : ":nth-child(an+b)",
+            "description" : "value can also be 'even' or 'odd'. a/b must be integers"
+        },{
+            "name" : ":nth-last-child(an+b)",
+            "description" : "essentially nth-child but going backwards"
+        },{
+            "name" : ":nth-last-of-type(an+b)",
+            "description" : "2 would be second to last element of a given type"
+        },{
+            "name" : ":nth-of-type(an+b)",
             "description" : ""
         },{
-            "name" : ":not()",
-            "description" : ""
+            "name" : ":only-child",
+            "description" : "elements that are the only child of its parent, aka no siblings"
         },{
-            "name" : ":nth-child()",
-            "description" : ""
-        },{
-            "name" : ":nth-last-child()",
-            "description" : ""
-        },{
-            "name" : ":nth-last-of-type()",
-            "description" : ""
-        },{
-            "name" : ":nth-of-type()",
-            "description" : ""
+            "name" : "only-of-type",
+            "description" : "represents any element that has no siblings of the given type"
         },{
             "name" : ":optional",
-            "description" : ""
+            "description" : "input tag that isn't set to required"
         },{
             "name" : ":out-of-range",
-            "description" : ""
+            "description" : "if min and max are specified, element is selected when not within those bounds"
         },{
             "name" : ":read-only",
-            "description" : ""
+            "description" : "element is not writable by user"
         },{
             "name" : ":read-write",
-            "description" : ""
+            "description" : "editable by user"
         },{
             "name" : ":required",
-            "description" : ""
+            "description" : "input tag that has required attribute set"
         },{
             "name" : ":right",
-            "description" : ""
+            "description" : "right page for printable material"
         },{
             "name" : ":root",
-            "description" : ""
-        },{
-            "name" : ":scope",
-            "description" : ""
+            "description" : "root element of a tree"
         },{
             "name" : ":target",
-            "description" : ""
+            "description" : "element representing the current hash location of uri"
         },{
             "name" : ":valid",
-            "description" : ""
+            "description" : "input or form whos content validates"
         },{
             "name" : ":visited",
-            "description" : ""
+            "description" : "links that have been visited"
         } 
     ]
 

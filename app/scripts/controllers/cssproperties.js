@@ -10,12 +10,13 @@
 angular.module('html5ReferenceApp')
   .controller('CsspropertiesCtrl', ["$scope","$http", function ($scope, $http) {
 
-      $scope.pseudoClasses;
+      $scope.pclasses;
 
       $http.get('/css_properties.json')
           .success(function(data){
                
-              $scope.pseudoClasses = data.pseudoclasses;
+              $scope.pclasses = data.pclasses;
+              console.log($scope.pclasses)
               
           });
   }]);
